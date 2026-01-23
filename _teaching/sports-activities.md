@@ -2,7 +2,7 @@
 title: "Sports & Outdoor Activities"
 collection: teaching
 type: "Personal Interests"
-permalink: /teaching/sports-activities
+permalink: /activities/sports-activities
 venue: "Boston Area & Beyond"
 date: 2024-01-01
 location: "Boston, MA"

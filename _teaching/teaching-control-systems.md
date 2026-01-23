@@ -2,7 +2,7 @@
 title: "Teaching Assistant - Control Systems"
 collection: teaching
 type: "Graduate Course"
-permalink: /teaching/ta-control-systems
+permalink: /activities/ta-control-systems
 venue: "Northeastern University, Department of Mechanical Engineering"
 date: 2023-01-15
 location: "Boston, MA"

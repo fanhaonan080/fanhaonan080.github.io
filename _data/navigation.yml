@@ -9,16 +9,16 @@
 
 main:
   - title: "Engineering Projects"
-    url: /portfolio/
+    url: /engineering/
 
   - title: "Personal Projects"
-    url: /year-archive/
+    url: /personal/
 
   - title: "Publications"
     url: /publications/
     
-  - title: "Experience"
-    url: /teaching/
+  - title: "Activities"
+    url: /activities/
     
   - title: "Resume"
     url: /files/Resume_Haonan_Fan.pdf
