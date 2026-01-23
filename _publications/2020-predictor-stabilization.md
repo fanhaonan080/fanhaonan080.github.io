@@ -26,12 +26,14 @@ This paper presents predictor-based stabilization methods for multiple different
 ## BibTeX
 
 ```bibtex
-@inproceedings{fan2020predictor,
-  title={Predictor-based stabilization of multiple differential-wheeled robots under measurement delays: Controller gain design for fast consensus},
+@INPROCEEDINGS{9147844,
   author={Fan, Haonan and Sipahi, Rifat and Oguchi, Toshiki},
-  booktitle={2020 American Control Conference (ACC)},
-  pages={1713--1718},
+  booktitle={2020 American Control Conference (ACC)}, 
+  title={Predictor-Based Stabilization of Multiple Differential-wheeled Robots under Measurement Delays: Controller Gain Design for Fast Consensus}, 
   year={2020},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={1713-1718},
+  keywords={Robot kinematics;Delays;Mobile robots;Wheels;Eigenvalues and eigenfunctions;Stability analysis},
+  doi={10.23919/ACC45564.2020.9147844}}
 ```

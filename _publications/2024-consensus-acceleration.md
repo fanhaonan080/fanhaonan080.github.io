@@ -25,13 +25,14 @@ This paper provides design guidelines for accelerating consensus in multiagent s
 ## BibTeX
 
 ```bibtex
-@article{martinez2024design,
-  title={Design guidelines to accelerate consensus using intentional delays in a multiagent system over mixed graphs},
-  author={Mart{\'\i}nez-Gonz{\'a}lez, Alejandro and Fan, Haonan and Sipahi, Rifat and Ram{\'\i}rez, Adri{\'a}n},
-  journal={IEEE Control Systems Letters},
-  volume={8},
-  pages={934--939},
+@ARTICLE{10536927,
+  author={Martínez-González, Alejandro and Fan, Haonan and Sipahi, Rifat and Ramírez, Adrián},
+  journal={IEEE Control Systems Letters}, 
+  title={Design Guidelines to Accelerate Consensus Using Intentional Delays in a Multiagent System Over Mixed Graphs}, 
   year={2024},
-  publisher={IEEE}
-}
+  volume={8},
+  number={},
+  pages={934-939},
+  keywords={Eigenvalues and eigenfunctions;Laplace equations;Delays;Protocols;Noise;Vectors;Stability analysis;Delay-based control;proportional retarded control;intentional delay;consensus;mixed graph},
+  doi={10.1109/LCSYS.2024.3404389}}
 ```

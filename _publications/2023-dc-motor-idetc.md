@@ -26,11 +26,17 @@ This conference paper addresses DC motor velocity control using integral retarde
 ## BibTeX
 
 ```bibtex
-@inproceedings{fan2023dc,
-  title={DC Motor Velocity Control With Integral Retarded Controller Under Unintentional Delay},
-  author={Fan, Haonan and Ram{\'\i}rez, Adri{\'a}n and Mondi{\'e}, Sabine and Sipahi, Rifat},
-  booktitle={International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},
-  pages={V010T10A023},
-  year={2023}
+@proceedings{10.1115/DETC2023-116814,
+  author = {Fan, Haonan and Ramírez, Adrián and Mondié, Sabine and Sipahi, Rifat},
+  title = {DC Motor Velocity Control With Integral Retarded Controller Under Unintentional Delay},
+  volume = {Volume 10: 19th International Conference on Multibody Systems, Nonlinear Dynamics, and Control (MSNDC)},
+  series = {International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},
+  pages = {V010T10A023},
+  year = {2023},
+  month = {08},
+  abstract = {PID controllers are an industry standard. These controllers are not only effective in many applications, but also intuitive for practitioners to utilize them under a variety of conditions. However, balancing multiple control objectives is still not a trivial task, especially one has to deal with noisy measurements and a relatively high bandwidth of operation is expected from the closed-loop system. An alternative to PIDs has been recently revisited with promising, analytical tuning formula and capabilities to effectively control plants with noisy measurement even without low-pass filters. These controllers are called delay-based controllers whereby an intentional delay is introduced into the controller to improve speed of response, reduce noise, and even improve set point regulation. One such controller is the focus of this manuscript, namely, an Integral Retarded (IR) controller. This controller utilizes an intentional delay to reduce actuator chattering against noisy measurements, while its integral part achieves zero steady-state error for set-point regulation of Type-0 open loop systems. This controller can be tuned analytically to achieve, at the same time, rightmost root placement to render certain speed of response in closed loop. However, measurements can be unintentionally delayed in many applications. IR framework for such cases has not been studied in the literature. Here, we provide new tuning rules for such cases, as well as validations through simulations and a DC motor speed control hardware experiment.},
+  doi = {10.1115/DETC2023-116814},
+  url = {https://doi.org/10.1115/DETC2023-116814},
+  eprint = {https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/IDETC-CIE2023/87387/V010T10A023/7062018/v010t10a023-detc2023-116814.pdf},
 }
 ```

@@ -25,14 +25,14 @@ This paper investigates consensus stability in large-scale robotic networks unde
 ## BibTeX
 
 ```bibtex
-@article{fan2021consensus,
-  title={Consensus stability of a large-scale robotic network under input and transmission delays},
-  author={Fan, Haonan and Ram{\'\i}rez, Adri{\'a}n and Sipahi, Rifat},
-  journal={IEEE Transactions on Control of Network Systems},
+@ARTICLE{9601198,
+  author={Fan, Haonan and Ramírez, Adrián and Sipahi, Rifat},
+  journal={IEEE Transactions on Control of Network Systems}, 
+  title={Consensus Stability of a Large-Scale Robotic Network Under Input and Transmission Delays}, 
+  year={2022},
   volume={9},
   number={2},
-  pages={789--799},
-  year={2021},
-  publisher={IEEE}
-}
+  pages={789-799},
+  keywords={Delays;Network systems;Wheels;Stability criteria;Robot kinematics;Mobile robots;Measurement uncertainty;Consensus;differential-wheeled (nonholonomic) robot;large-scale network;stability;time delay},
+  doi={10.1109/TCNS.2021.3124912}}
 ```

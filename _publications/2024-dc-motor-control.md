@@ -25,12 +25,19 @@ This paper addresses DC motor velocity control using integral retarded controlle
 ## BibTeX
 
 ```bibtex
-@article{fan2024direct,
-  title={Direct Current Motor Velocity Control With Integral Retarded Controller Under Unintentional Delay},
-  author={Fan, Haonan and Ram{\'\i}rez, Adri{\'a}n and Mondi{\'e}, Sabine and Sipahi, Rifat},
-  journal={Journal of Computational and Nonlinear Dynamics},
-  pages={1--7},
-  year={2024},
-  publisher={American Society of Mechanical Engineers}
+@article{10.1115/1.4065014,
+  author = {Fan, Haonan and Ramírez, Adrián and Mondié, Sabine and Sipahi, Rifat},
+  title = {Direct Current Motor Velocity Control With Integral Retarded Controller Under Unintentional Delay},
+  journal = {Journal of Computational and Nonlinear Dynamics},
+  volume = {19},
+  number = {7},
+  pages = {074501},
+  year = {2024},
+  month = {05},
+  abstract = {Delay-based controllers have been recently revisited over proportional-integral-derivative (PID) controllers, with promising analytical tuning formulae and capabilities to effectively control plants with noisy measurements even without low-pass filters. One such controller is the integral retarded (IR) controller, which utilizes an intentional delay to reduce actuator chattering against noisy measurements while its integral part achieves zero steady-state error for set-point regulation of Type-0 open-loop systems. However, measurements can be unintentionally delayed in many applications. The integral retarded framework for such cases has not been studied in the literature. Here, we provide new analytical tuning rules of the controller in such cases, as well as validations through simulations and a direct current (DC) motor velocity control hardware experiment.},
+  issn = {1555-1415},
+  doi = {10.1115/1.4065014},
+  url = {https://doi.org/10.1115/1.4065014},
+  eprint = {https://asmedigitalcollection.asme.org/computationalnonlinear/article-pdf/19/7/074501/7350536/cnd_019_07_074501.pdf},
 }
 ```

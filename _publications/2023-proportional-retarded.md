@@ -25,13 +25,14 @@ This paper presents a proportional-retarded controller design approach for singl
 ## BibTeX
 
 ```bibtex
-@article{fan2022proportional,
-  title={Proportional-Retarded Controller Design for Single-Integrator Dynamics Against Unintentional Delays},
-  author={Fan, Haonan and Ram{\'\i}rez, Adri{\'a}n and Mondi{\'e}, Sabine and Sipahi, Rifat},
-  journal={IEEE Control Systems Letters},
+@ARTICLE{9837310,
+  author={Fan, Haonan and Ramírez, Adrián and Mondié, Sabine and Sipahi, Rifat},
+  journal={IEEE Control Systems Letters}, 
+  title={Proportional-Retarded Controller Design for Single-Integrator Dynamics Against Unintentional Delays}, 
+  year={2023},
   volume={7},
-  pages={514--519},
-  year={2022},
-  publisher={IEEE}
-}
+  number={},
+  pages={514-519},
+  keywords={Delays;Closed loop systems;Stability analysis;Thermal stability;Attenuation;Task analysis;Feedback control;Delay-based controller;proportional retarded controller;intentional delay;unintentional delay},
+  doi={10.1109/LCSYS.2022.3193275}}
 ```
