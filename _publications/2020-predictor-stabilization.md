@@ -8,7 +8,6 @@ date: 2020-07-01
 venue: '2020 American Control Conference (ACC)'
 slidesurl: # 'http://academicpages.github.io/files/slides5.pdf'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9147844/'
-citation: 'Fan, H., Sipahi, R., and Oguchi, T. (2020). &quot;Predictor-based Stabilization of Multiple Differential-Wheeled Robots Under Measurement Delays: Controller Gain Design for Fast Consensus.&quot; <i>2020 American Control Conference (ACC)</i>. pp. 1713-1718.'
 ---
 
 This paper presents predictor-based stabilization methods for multiple differential-wheeled robots under measurement delays with controller gain design for fast consensus.
@@ -24,7 +23,7 @@ This paper presents predictor-based stabilization methods for multiple different
 - Fast consensus under measurement delays
 - Multi-robot coordination
 
-## Citation
+## BibTeX
 
 ```bibtex
 @inproceedings{fan2020predictor,

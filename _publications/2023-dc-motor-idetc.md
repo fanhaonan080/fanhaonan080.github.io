@@ -8,7 +8,6 @@ date: 2023-08-01
 venue: 'International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)'
 slidesurl: # 'http://academicpages.github.io/files/slides6.pdf'
 paperurl: 'https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2023/87387/1170748'
-citation: 'Fan, H., Ramírez, A., Mondié, S., and Sipahi, R. (2023). &quot;DC Motor Velocity Control With Integral Retarded Controller Under Unintentional Delay.&quot; <i>International Design Engineering Technical Conferences and Computers and Information in Engineering Conference</i>. V010T10A023.'
 ---
 
 This conference paper addresses DC motor velocity control using integral retarded controllers under unintentional delay conditions, presented at IDETC-CIE 2023.
@@ -24,7 +23,7 @@ This conference paper addresses DC motor velocity control using integral retarde
 - Experimental validation
 - Practical implementation considerations
 
-## Citation
+## BibTeX
 
 ```bibtex
 @inproceedings{fan2023dc,
