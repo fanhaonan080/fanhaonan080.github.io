@@ -13,9 +13,6 @@ I design, control, and experimentally validate robotic systems—from actuator h
 
 <div style="text-align: center; margin: 30px 0;">
   <a href="/files/Resume_Haonan_Fan.pdf" class="btn btn--primary btn--large">Resume (PDF)</a>
-  <a href="/projects/" class="btn btn--info btn--large">Projects</a>
-  <a href="https://github.com/fanhaonan080" class="btn btn--inverse btn--large" target="_blank">GitHub</a>
-  <a href="https://www.linkedin.com/in/h-fan" class="btn btn--inverse btn--large" target="_blank">LinkedIn</a>
 </div>
 
 ---
