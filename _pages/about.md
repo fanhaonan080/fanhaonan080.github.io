@@ -31,4 +31,17 @@ I bring a systems engineering mindset to robotics, bridging mechanical design, c
 - **Specialized in cable-driven actuators** — wearable robotics and compliant actuation systems
 - **Physics-informed machine learning** — data-efficient estimation and model-based control
 - **Full-stack technical skills** — MATLAB/Simulink, Python/C++, firmware-level programming
-- **Research leadership** — mentoring students, collaborative projects, and cross-functional teamwork 
+- **Research leadership** — mentoring students, collaborative projects, and cross-functional teamwork
+
+---
+
+## Selected Awards & Honors
+
+**Yamamura Research Award**, Northeastern University, April 2024
+
+**Best Paper Award**, 19th MSNDC, ASME IDETC-CIE, August 2023
+
+**Ferretti Teaching Award**, Northeastern University, April 2023
+
+**John and Katharine Cipolla PhD Merit Award**, Northeastern University  
+*November 2021* 

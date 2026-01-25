@@ -3,12 +3,14 @@ title: "DC Motor Velocity Control With Integral Retarded Controller Under Uninte
 collection: publications
 category: conferences
 permalink: /publication/2023-dc-motor-idetc
-excerpt: 'This conference paper addresses DC motor velocity control using integral retarded controllers under unintentional delay conditions, presented at IDETC-CIE 2023.'
+excerpt: 'This conference paper addresses DC motor velocity control using integral retarded controllers under unintentional delay conditions, presented at IDETC-CIE 2023. **🏆 Best Paper Award**'
 date: 2023-08-01
 venue: 'International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)'
 slidesurl: # 'http://academicpages.github.io/files/slides6.pdf'
 paperurl: 'https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2023/87387/1170748'
 ---
+
+**🏆 Best Paper Award - 19th MSNDC, ASME IDETC-CIE 2023**
 
 This conference paper addresses DC motor velocity control using integral retarded controllers under unintentional delay conditions, presented at IDETC-CIE 2023.
 
