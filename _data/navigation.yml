@@ -20,6 +20,9 @@ main:
   - title: "Resume"
     url: /files/Resume_Haonan_Fan.pdf
     
+  - title: "Beyond Engineering"
+    url: /beyond-engineering/
+    
   # - title: "Talks"
   #   url: /talks/
     
