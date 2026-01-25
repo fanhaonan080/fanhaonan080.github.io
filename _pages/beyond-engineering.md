@@ -28,8 +28,8 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
   margin: 20px 0;
 }
 .gallery-item {
@@ -40,7 +40,7 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 }
 .gallery-item img {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -118,35 +118,27 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <div class="gallery-grid" id="woodworking-gallery">
   <div class="gallery-item" onclick="openLightbox(0)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Cat Approved Ski Waxing Box">
-    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(1)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Cat Approved Ski Waxing Box Detail">
-    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(2)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG" alt="Workbench">
-    <p class="gallery-caption">Workbench</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(3)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf">
-    <p class="gallery-caption">Custom shelf</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(4)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack">
-    <p class="gallery-caption">Cloth rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(5)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG" alt="Cloth Rack Detail">
-    <p class="gallery-caption">Cloth rack detail</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(6)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack">
-    <p class="gallery-caption">Bike rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(7)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper Conversion">
-    <p class="gallery-caption">Converting my SUV into a camper</p>
   </div>
 </div>
 
@@ -209,7 +201,7 @@ document.addEventListener('keydown', function(event) {
 </script>
 
 ### Photography & Travel
-I’ve been interested in photography for many years and eventually realized that I’m more drawn to the buttons and controls than the artistic process itself. I often use photography to document travel and everyday life.
+I’ve been interested in photography for many years and eventually realized that I’m more drawn to the buttons and controls than the artistic process itself. I often use photography to document travel and everyday life. Here are some photos I took recently.
 </div>
 
 <div class="gallery-grid" id="photography-gallery">
