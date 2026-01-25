@@ -22,26 +22,93 @@ Northeastern University, September 2019 — December 2024
 ## Hobbies & Sports
 
 ### Woodworking
-![Woodworking Projects](/images/beyond-engineering/woodworking.jpg){: .align-center width="600px"}
 
 I enjoy hands-on craftsmanship and building functional pieces. Working with scrap wood has become a cost-effective and creative outlet alongside research and engineering work. Woodworking reinforces patience, precision, and problem-solving, and it also supports my other hobbies by enabling me to build custom fixtures and tools.
 
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
+  <div>
+    <img src="/images/beyond-engineering/woodworking1.jpg" alt="Woodworking Project 1" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Custom furniture piece</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/woodworking2.jpg" alt="Woodworking Project 2" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Traditional joinery work</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/woodworking3.jpg" alt="Woodworking Project 3" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Workshop in progress</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/woodworking4.jpg" alt="Woodworking Project 4" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Finished project</p>
+  </div>
+</div>
+
 ### Photography & Travel
-![Photography & Travel](/images/beyond-engineering/photography.jpg){: .align-center width="600px"}
-
 I’ve been interested in photography for many years and eventually realized that I’m more drawn to the buttons and controls than the artistic process itself. I often use photography to document travel and everyday life.
-
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
+  <div>
+    <img src="/images/beyond-engineering/photography1.jpg" alt="Travel Photo 1" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Landscape photography</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/photography2.jpg" alt="Travel Photo 2" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Travel destination</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/photography3.jpg" alt="Travel Photo 3" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Camera gear</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/photography4.jpg" alt="Travel Photo 4" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Captured moment</p>
+  </div>
+</div>
 
 ### Skiing
-![Skiing](/images/beyond-engineering/skiing.jpg){: .align-center width="600px"}
-
 It’s not just about speed. it’s about technique, maneuverability, self-progression, and (of course) appreciating the mother nature. I’m obsessed with downhill skiing, have tried cross-country skiing, and am currently learning snowboarding. Give me nice groomers and I’ll leave behind some perfectly engineered S-turns.
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
+  <div>
+    <img src="/images/beyond-engineering/skiing1.jpg" alt="Skiing 1" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Downhill carving</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/skiing2.jpg" alt="Skiing 2" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Mountain views</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/skiing3.jpg" alt="Skiing 3" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Snowboarding attempt</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/skiing4.jpg" alt="Skiing 4" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Fresh powder day</p>
+  </div>
+</div>
 
 
 ### Tennis & Basketball & Cycling
-![Sports](/images/beyond-engineering/sports.jpg){: .align-center width="600px"}
-
 I enjoy competitive sports that balance physical challenge, strategy, and teamwork. Tennis is now my daily go-to, while I previously served as a team lead in college basketball during my undergraduate years. In warmer months, long-distance group riding becomes one of my favorite weekend resets.
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
+  <div>
+    <img src="/images/beyond-engineering/tennis.jpg" alt="Tennis" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Tennis on court</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/basketball.jpg" alt="Basketball" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">College basketball team</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/cycling1.jpg" alt="Cycling 1" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Long-distance ride</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/cycling2.jpg" alt="Cycling 2" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Group cycling</p>
+  </div>
+</div>
 
 ---
 
