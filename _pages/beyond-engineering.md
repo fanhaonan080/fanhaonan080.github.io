@@ -7,6 +7,25 @@ author_profile: true
 
 ---
 
+## Teaching Experience
+
+### Part-Time Lecturer
+**Northeastern University | Boston, MA**  
+*January 2025 — May 2025*
+
+- **ME5245: Mechatronics Engineering** — Covering system modeling, electronics, sensing, actuation, and control
+
+### Teaching Assistant
+**Northeastern University, Department of Mechanical & Industrial Engineering | Boston, MA**  
+*September 2019 — December 2024*
+
+- Taught and supported over **800 students** across **7 courses** and **20 semesters** in robotics, control, and mechatronics
+- Led laboratory sessions and hands-on demonstrations
+- Developed course materials and teaching platforms
+- Received **Ferretti Teaching Award** (2023) for excellence in instruction
+
+---
+
 ## Hobbies & Interests
 
 ### Woodworking
