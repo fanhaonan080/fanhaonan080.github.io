@@ -28,8 +28,8 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   margin: 20px 0;
 }
 .gallery-item {
@@ -40,7 +40,7 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 }
 .gallery-item img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -49,7 +49,7 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 }
 .gallery-caption {
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.85em;
   color: #666;
   margin-top: 5px;
 }
@@ -118,27 +118,35 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <div class="gallery-grid" id="woodworking-gallery">
   <div class="gallery-item" onclick="openLightbox(0)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Cat Approved Ski Waxing Box">
+    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(1)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Cat Approved Ski Waxing Box Detail">
+    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(2)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG" alt="Workbench">
+    <p class="gallery-caption">Workbench</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(3)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf">
+    <p class="gallery-caption">Custom shelf</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(4)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack">
+    <p class="gallery-caption">Cloth rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(5)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG" alt="Cloth Rack Detail">
+    <p class="gallery-caption">Cloth rack detail</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(6)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack">
+    <p class="gallery-caption">Bike rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(7)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper Conversion">
+    <p class="gallery-caption">Converting my SUV into a camper</p>
   </div>
 </div>
 
@@ -202,24 +210,84 @@ document.addEventListener('keydown', function(event) {
 
 ### Photography & Travel
 I’ve been interested in photography for many years and eventually realized that I’m more drawn to the buttons and controls than the artistic process itself. I often use photography to document travel and everyday life.
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
-  <div>
-    <img src="/images/beyond-engineering/photography1.jpg" alt="Travel Photo 1" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Landscape photography</p>
+</div>
+
+<div class="gallery-grid" id="photography-gallery">
+  <div class="gallery-item" onclick="openLightboxPhoto(0)">
+    <img src="/images/beyond-engineering/Photography/Photography_1.JPEG" alt="Photography 1">
   </div>
-  <div>
-    <img src="/images/beyond-engineering/photography2.jpg" alt="Travel Photo 2" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Travel destination</p>
+  <div class="gallery-item" onclick="openLightboxPhoto(1)">
+    <img src="/images/beyond-engineering/Photography/Photography_2.JPEG" alt="Photography 2">
   </div>
-  <div>
-    <img src="/images/beyond-engineering/photography3.jpg" alt="Travel Photo 3" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Camera gear</p>
+  <div class="gallery-item" onclick="openLightboxPhoto(2)">
+    <img src="/images/beyond-engineering/Photography/Photography_3.JPEG" alt="Photography 3">
   </div>
-  <div>
-    <img src="/images/beyond-engineering/photography4.jpg" alt="Travel Photo 4" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Captured moment</p>
+  <div class="gallery-item" onclick="openLightboxPhoto(3)">
+    <img src="/images/beyond-engineering/Photography/Photography_4.JPEG" alt="Photography 4">
+  </div>
+  <div class="gallery-item" onclick="openLightboxPhoto(4)">
+    <img src="/images/beyond-engineering/Photography/Photography_5.JPEG" alt="Photography 5">
+  </div>
+  <div class="gallery-item" onclick="openLightboxPhoto(5)">
+    <img src="/images/beyond-engineering/Photography/Photography_6.JPEG" alt="Photography 6">
   </div>
 </div>
+
+<div id="lightbox-photo" class="lightbox" onclick="closeLightboxPhoto()">
+  <span class="lightbox-close" onclick="closeLightboxPhoto()">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImagePhoto(-1)">&#10094;</span>
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImagePhoto(1)">&#10095;</span>
+  <img class="lightbox-content" id="lightbox-img-photo" onclick="event.stopPropagation()">
+  <div class="lightbox-caption" id="lightbox-caption-photo"></div>
+</div>
+
+<script>
+const photoImages = [
+  {src: '/images/beyond-engineering/Photography/Photography_1.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Photography/Photography_2.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Photography/Photography_3.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Photography/Photography_4.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Photography/Photography_5.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Photography/Photography_6.JPEG', caption: ''}
+];
+
+let currentIndexPhoto = 0;
+
+function openLightboxPhoto(index) {
+  currentIndexPhoto = index;
+  showImagePhoto();
+  document.getElementById('lightbox-photo').style.display = 'flex';
+}
+
+function closeLightboxPhoto() {
+  document.getElementById('lightbox-photo').style.display = 'none';
+}
+
+function changeImagePhoto(direction) {
+  currentIndexPhoto += direction;
+  if (currentIndexPhoto < 0) currentIndexPhoto = photoImages.length - 1;
+  if (currentIndexPhoto >= photoImages.length) currentIndexPhoto = 0;
+  showImagePhoto();
+}
+
+function showImagePhoto() {
+  document.getElementById('lightbox-img-photo').src = photoImages[currentIndexPhoto].src;
+  document.getElementById('lightbox-caption-photo').innerHTML = photoImages[currentIndexPhoto].caption;
+}
+
+document.addEventListener('keydown', function(event) {
+  const lb = document.getElementById('lightbox-photo');
+  if (lb.style.display === 'flex') {
+    if (event.key === 'Escape') {
+      closeLightboxPhoto();
+    } else if (event.key === 'ArrowLeft') {
+      changeImagePhoto(-1);
+    } else if (event.key === 'ArrowRight') {
+      changeImagePhoto(1);
+    }
+  }
+});
+</script>
 
 ### Skiing
 It’s not just about speed. it’s about technique, maneuverability, self-progression, and (of course) appreciating the mother nature. I’m obsessed with downhill skiing, have tried cross-country skiing, and am currently learning snowboarding. Give me nice groomers and I’ll leave behind some perfectly engineered S-tracks.
