@@ -118,35 +118,27 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <div class="gallery-grid" id="woodworking-gallery">
   <div class="gallery-item" onclick="openLightbox(0)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Cat Approved Ski Waxing Box">
-    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(1)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Cat Approved Ski Waxing Box Detail">
-    <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(2)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG" alt="Workbench">
-    <p class="gallery-caption">Workbench</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(3)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf">
-    <p class="gallery-caption">Custom shelf</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(4)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack">
-    <p class="gallery-caption">Cloth rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(5)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG" alt="Cloth Rack Detail">
-    <p class="gallery-caption">Cloth rack detail</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(6)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack">
-    <p class="gallery-caption">Bike rack</p>
   </div>
   <div class="gallery-item" onclick="openLightbox(7)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper Conversion">
-    <p class="gallery-caption">Converting my SUV into a camper</p>
   </div>
 </div>
 
