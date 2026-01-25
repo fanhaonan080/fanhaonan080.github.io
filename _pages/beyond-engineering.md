@@ -66,8 +66,8 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
   justify-content: center;
 }
 .lightbox-content {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
   object-fit: contain;
 }
 .lightbox-close {
@@ -78,68 +78,132 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+  z-index: 10001;
+}
+.lightbox-close:hover {
+  color: #bbb;
 }
 .lightbox-caption {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
   text-align: center;
   color: #ccc;
   padding: 10px;
   font-size: 1.1em;
 }
+.lightbox-prev, .lightbox-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 16px;
+  user-select: none;
+  z-index: 10001;
+}
+.lightbox-prev:hover, .lightbox-next:hover {
+  color: #bbb;
+}
+.lightbox-prev {
+  left: 20px;
+}
+.lightbox-next {
+  right: 20px;
+}
 </style>
 
-<div class="gallery-grid">
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG', 'Cat approved ski waxing box')">
+<div class="gallery-grid" id="woodworking-gallery">
+  <div class="gallery-item" onclick="openLightbox(0)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Cat Approved Ski Waxing Box">
     <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG', 'Cat approved ski waxing box')">
+  <div class="gallery-item" onclick="openLightbox(1)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Cat Approved Ski Waxing Box Detail">
     <p class="gallery-caption">Cat approved ski waxing box</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG', 'Workbench')">
+  <div class="gallery-item" onclick="openLightbox(2)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG" alt="Workbench">
     <p class="gallery-caption">Workbench</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG', 'Custom shelf')">
+  <div class="gallery-item" onclick="openLightbox(3)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf">
     <p class="gallery-caption">Custom shelf</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG', 'Cloth rack')">
+  <div class="gallery-item" onclick="openLightbox(4)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack">
     <p class="gallery-caption">Cloth rack</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG', 'Cloth rack detail')">
+  <div class="gallery-item" onclick="openLightbox(5)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG" alt="Cloth Rack Detail">
     <p class="gallery-caption">Cloth rack detail</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG', 'Bike rack')">
+  <div class="gallery-item" onclick="openLightbox(6)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack">
     <p class="gallery-caption">Bike rack</p>
   </div>
-  <div class="gallery-item" onclick="openLightbox('/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG', 'Converting my SUV into a camper')">
+  <div class="gallery-item" onclick="openLightbox(7)">
     <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper Conversion">
     <p class="gallery-caption">Converting my SUV into a camper</p>
   </div>
 </div>
 
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-  <span class="lightbox-close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+  <img class="lightbox-content" id="lightbox-img" onclick="event.stopPropagation()">
   <div class="lightbox-caption" id="lightbox-caption"></div>
 </div>
 
 <script>
-function openLightbox(src, caption) {
+const galleryImages = [
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG', caption: 'Cat approved ski waxing box'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG', caption: 'Cat approved ski waxing box'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG', caption: 'Workbench'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG', caption: 'Custom shelf'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG', caption: 'Cloth rack'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG', caption: 'Cloth rack detail'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG', caption: 'Bike rack'},
+  {src: '/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG', caption: 'Converting my SUV into a camper'}
+];
+
+let currentIndex = 0;
+
+function openLightbox(index) {
+  currentIndex = index;
+  showImage();
   document.getElementById('lightbox').style.display = 'flex';
-  document.getElementById('lightbox-img').src = src;
-  document.getElementById('lightbox-caption').innerHTML = caption;
 }
+
 function closeLightbox() {
   document.getElementById('lightbox').style.display = 'none';
 }
+
+function changeImage(direction) {
+  currentIndex += direction;
+  if (currentIndex < 0) currentIndex = galleryImages.length - 1;
+  if (currentIndex >= galleryImages.length) currentIndex = 0;
+  showImage();
+}
+
+function showImage() {
+  document.getElementById('lightbox-img').src = galleryImages[currentIndex].src;
+  document.getElementById('lightbox-caption').innerHTML = galleryImages[currentIndex].caption;
+}
+
 document.addEventListener('keydown', function(event) {
-  if (event.key === 'Escape') {
-    closeLightbox();
+  const lightbox = document.getElementById('lightbox');
+  if (lightbox.style.display === 'flex') {
+    if (event.key === 'Escape') {
+      closeLightbox();
+    } else if (event.key === 'ArrowLeft') {
+      changeImage(-1);
+    } else if (event.key === 'ArrowRight') {
+      changeImage(1);
+    }
   }
 });
 </script>
