@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Haonan Fan"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Haonan Fan"
 description              : &description "Haonan Fan's website"   # Update this with a general description of your site, this is the default if not overridden by a page
