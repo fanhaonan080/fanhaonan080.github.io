@@ -28,8 +28,8 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
   margin: 20px 0;
 }
 .gallery-item {
@@ -40,7 +40,7 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 }
 .gallery-item img {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -49,7 +49,7 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 }
 .gallery-caption {
   text-align: center;
-  font-size: 0.85em;
+  font-size: 0.75em;
   color: #666;
   margin-top: 5px;
 }
