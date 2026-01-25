@@ -27,36 +27,36 @@ I enjoy hands-on craftsmanship and building functional pieces. Working with scra
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
   <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Bike rack</p>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Cat Approved Ski Waxing Box" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Cat approved ski waxing box</p>
   </div>
   <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Camper project</p>
-  </div>
-  <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Cloth rack</p>
-  </div>
-  <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Custom shelf</p>
-  </div>
-  <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box1.JPEG" alt="Waxing Box" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Ski waxing box</p>
-  </div>
-  <div>
-    <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Waxing Box Detail" style="width: 100%; border-radius: 8px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Waxing box detail</p>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_waxing_box2.JPG" alt="Cat Approved Ski Waxing Box Detail" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Cat approved ski waxing box</p>
   </div>
   <div>
     <img src="/images/beyond-engineering/Woodworking/Woodworking_workbench.JPEG" alt="Workbench" style="width: 100%; border-radius: 8px;">
     <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Workbench</p>
   </div>
   <div>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_shelf.JPEG" alt="Shelf" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Custom shelf</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack1.JPEG" alt="Cloth Rack" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Cloth rack</p>
+  </div>
+  <div>
     <img src="/images/beyond-engineering/Woodworking/Woodworking_cloth_rack2.JPEG" alt="Cloth Rack Detail" style="width: 100%; border-radius: 8px;">
     <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Cloth rack detail</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_bike_rack.JPEG" alt="Bike Rack" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Bike rack</p>
+  </div>
+  <div>
+    <img src="/images/beyond-engineering/Woodworking/Woodworking_camper.JPEG" alt="Camper Conversion" style="width: 100%; border-radius: 8px;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Converting my SUV into a camper</p>
   </div>
 </div>
 
