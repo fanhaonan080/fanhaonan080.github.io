@@ -15,7 +15,6 @@ I design, control, and experimentally validate robotic systems—from actuator h
   <a href="/files/Resume_Haonan_Fan.pdf" class="btn btn--primary btn--large">Resume (PDF)</a>
 </div>
 
----
 
 ## About Me
 

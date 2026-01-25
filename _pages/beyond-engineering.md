@@ -280,7 +280,87 @@ document.addEventListener('keydown', function(event) {
 });
 </script>
 
-### Skiing
+### Sports
+
+I enjoy competitive sports that balance physical challenge, strategy, and teamwork. Tennis is now my daily go-to, while I previously served as a team lead in college basketball during my undergraduate years. In warmer months, long-distance group riding becomes one of my favorite weekend resets.
+
+When it comes to skiing, it's not just about speed—it's about technique, maneuverability, self-progression, and (of course) appreciating mother nature. I'm obsessed with downhill skiing, have tried cross-country skiing, and am currently learning snowboarding. Give me nice groomers and I'll leave behind some perfectly engineered S-tracks.
+
+<div class="gallery-grid" id="sports-gallery">
+  <div class="gallery-item" onclick="openLightboxSports(0)">
+    <img src="/images/beyond-engineering/Sports/Tennis.JPEG" alt="Tennis">
+  </div>
+  <div class="gallery-item" onclick="openLightboxSports(1)">
+    <img src="/images/beyond-engineering/Sports/Cycling.JPEG" alt="Cycling">
+  </div>
+  <div class="gallery-item" onclick="openLightboxSports(2)">
+    <img src="/images/beyond-engineering/Sports/Skiing1.JPEG" alt="Skiing 1">
+  </div>
+  <div class="gallery-item" onclick="openLightboxSports(3)">
+    <img src="/images/beyond-engineering/Sports/Skiing2.JPEG" alt="Skiing 2">
+  </div>
+</div>
+
+<div id="lightbox-sports" class="lightbox" onclick="closeLightboxSports()">
+  <span class="lightbox-close" onclick="closeLightboxSports()">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImageSports(-1)">&#10094;</span>
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImageSports(1)">&#10095;</span>
+  <img class="lightbox-content" id="lightbox-img-sports" onclick="event.stopPropagation()">
+  <div class="lightbox-caption" id="lightbox-caption-sports"></div>
+</div>
+
+<script>
+const sportsImages = [
+  {src: '/images/beyond-engineering/Sports/Tennis.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Sports/Cycling.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Sports/Skiing1.JPEG', caption: ''},
+  {src: '/images/beyond-engineering/Sports/Skiing2.JPEG', caption: ''}
+];
+
+let currentSportsIndex = 0;
+
+function openLightboxSports(index) {
+  currentSportsIndex = index;
+  showImageSports();
+  document.getElementById('lightbox-sports').style.display = 'flex';
+}
+
+function closeLightboxSports() {
+  document.getElementById('lightbox-sports').style.display = 'none';
+}
+
+function changeImageSports(direction) {
+  currentSportsIndex += direction;
+  if (currentSportsIndex >= sportsImages.length) {
+    currentSportsIndex = 0;
+  } else if (currentSportsIndex < 0) {
+    currentSportsIndex = sportsImages.length - 1;
+  }
+  showImageSports();
+}
+
+function showImageSports() {
+  const img = document.getElementById('lightbox-img-sports');
+  const caption = document.getElementById('lightbox-caption-sports');
+  img.src = sportsImages[currentSportsIndex].src;
+  caption.textContent = sportsImages[currentSportsIndex].caption;
+}
+
+document.addEventListener('keydown', function(event) {
+  const lb = document.getElementById('lightbox-sports');
+  if (lb.style.display === 'flex') {
+    if (event.key === 'Escape') {
+      closeLightboxSports();
+    } else if (event.key === 'ArrowLeft') {
+      changeImageSports(-1);
+    } else if (event.key === 'ArrowRight') {
+      changeImageSports(1);
+    }
+  }
+});
+</script>
+
+<!-- ### Skiing
 It’s not just about speed. it’s about technique, maneuverability, self-progression, and (of course) appreciating the mother nature. I’m obsessed with downhill skiing, have tried cross-country skiing, and am currently learning snowboarding. Give me nice groomers and I’ll leave behind some perfectly engineered S-tracks.
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 20px 0;">
@@ -323,7 +403,7 @@ I enjoy competitive sports that balance physical challenge, strategy, and teamwo
     <img src="/images/beyond-engineering/cycling2.jpg" alt="Cycling 2" style="width: 100%; border-radius: 8px;">
     <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">Group cycling</p>
   </div>
-</div>
+</div> -->
 
 ---
 
