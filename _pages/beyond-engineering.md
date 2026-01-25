@@ -42,6 +42,7 @@ It’s not just about speed. it’s about technique, maneuverability, self-progr
 ![Sports](/images/beyond-engineering/sports.jpg){: .align-center width="600px"}
 
 I enjoy competitive sports that balance physical challenge, strategy, and teamwork. Tennis is now my daily go-to, while I previously served as a team lead in college basketball during my undergraduate years. In warmer months, long-distance group riding becomes one of my favorite weekend resets.
+
 ---
 
 ## Other Pursuits
