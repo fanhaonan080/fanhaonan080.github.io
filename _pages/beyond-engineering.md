@@ -202,7 +202,6 @@ document.addEventListener('keydown', function(event) {
 
 ### Photography & Travel
 I’ve been interested in photography for many years and eventually realized that I’m more drawn to the buttons and controls than the artistic process itself. I often use photography to document travel and everyday life. Here are some photos I took recently.
-</div>
 
 <div class="gallery-grid" id="photography-gallery">
   <div class="gallery-item" onclick="openLightboxPhoto(0)">
