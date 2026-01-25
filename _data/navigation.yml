@@ -8,17 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Engineering Projects"
+  - title: "Projects"
     url: /engineering/
 
-  - title: "Personal Projects"
-    url: /personal/
+  - title: "Skills"
+    url: /skills/
 
   - title: "Publications"
     url: /publications/
-    
-  - title: "Activities"
-    url: /activities/
     
   - title: "Resume"
     url: /files/Resume_Haonan_Fan.pdf
