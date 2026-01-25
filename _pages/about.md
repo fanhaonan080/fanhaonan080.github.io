@@ -43,5 +43,4 @@ I bring a systems engineering mindset to robotics, bridging mechanical design, c
 
 **Ferretti Teaching Award**, Northeastern University, April 2023
 
-**John and Katharine Cipolla PhD Merit Award**, Northeastern University  
-*November 2021* 
+**John and Katharine Cipolla PhD Merit Award**, Northeastern University, November 2021

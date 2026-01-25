@@ -9,19 +9,19 @@
 
 main:
   - title: "Projects"
-    url: /engineering/
+    url: /projects/
 
   - title: "Skills"
     url: /skills/
+
+  - title: "Beyond Engineering"
+    url: /beyond-engineering/
 
   - title: "Publications"
     url: /publications/
     
   - title: "Resume"
     url: /files/Resume_Haonan_Fan.pdf
-    
-  - title: "Beyond Engineering"
-    url: /beyond-engineering/
     
   # - title: "Talks"
   #   url: /talks/
