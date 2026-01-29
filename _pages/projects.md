@@ -11,28 +11,63 @@ toc_icon: "cog"
 ---
 
 ## Cable-Driven Actuator with Programmable Elasticity
+I designed and experimentally validated a **cable-driven actuator** for human–robot interaction, focusing on **eliminating cable slack**, **stable force control**, and **programmable compliance** under dynamic loading. The actuator was developed for wearable robotics and human-subject experiments, where safety and robustness are critical.
 
-**Problem:** Traditional 
+**Problem:** 
+While cable-driven actuation enables lightweight and flexible force transmission, practical systems often suffer from:
+- Cable slack and backlash  
+- Nonlinear force transmission  
+- Limited force control bandwidth  
+- Safety constraints in human interaction  
 
-**My Role:** Lead researcher 
+The goal was to build a compact actuator that maintains tension stability, responds quickly to disturbances, and supports tunable compliance.
+ 
+
+**My Role:**
+I led this project end-to-end, including:
+- Mechanical and actuator design  
+- Physics-based modeling and control design  
+- Embedded system integration  
+- Benchtop experimental validation  
+
 
 **Technical Highlights:**
-- Designed 
+- Designed a **unidirectional cable-driven actuator** to eliminate slack  
+- Integrated a **programmable elastic element** for variable stiffness behavior  
+- Developed and tuned control strategies for fast force regulation and disturbance rejection  
+- Prioritized experimental robustness over idealized performance  
 
-**Results:**
-- Achieved 
+**Experimental Validation:**
+The actuator was validated through benchtop experiments including:
+- Force tracking under dynamic references  
+- Disturbance rejection with increasing frequency and amplitude  
+- Stability testing across stiffness configurations  
 
-**Tools:** MATLAB
+**Key outcomes:**
+- Stable force control with settling times below 0.1 s  
+- Reliable tension regulation without cable slack  
+- Graceful performance degradation under aggressive disturbances  
+
+The actuator was subsequently used in pilot human-interaction studies.
+
+**Impact:**
+- Delivered a practical solution to cable slack and compliance trade-offs  
+- Enabled safe and stable force control for wearable robotics experiments  
+- Served as a reusable actuator platform for multiple studies  
+- Resulted in a peer-reviewed journal manuscript (under review) 
+
+**Skills Demonstrated:**
+Actuator design • Nonlinear modeling and control • Real-time control implementation • Hardware–software integration • Experimental validation
 
 ![Cable-driven actuator](/images/projects/cable-actuator.jpg)
 
 ---
 
-## Ankle Exoskeleton System Design & Control
+## Ankle Exoskeleton System Development
 
 **Problem:** Ankle exoskeletons
 
-**My Role:** Co-lead —
+**My Role:** System-level ownership, project lead
 
 **Technical Highlights:**
 - Co-designed 
