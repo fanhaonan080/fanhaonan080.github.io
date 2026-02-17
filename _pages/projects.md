@@ -10,83 +10,48 @@ toc_icon: "cog"
 
 ---
 
-## Cable-Driven Actuator with Programmable Elasticity
+## Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction
+I led the system refinement, control development, and experimental validation of a **cable-driven actuator** with programmable compliance for human–robot interaction. The actuator was designed to eliminate cable slack and enable stable, high-bandwidth force control for wearable robotics and human-subject experiments where safety and responsiveness are critical.
 
-I led the system-level development and experimental validation of a **cable-driven actuator** for human–robot interaction, focusing on **eliminating cable slack**, **stable force control**, and **programmable compliance**. The platform supports wearable robotics and human-subject experiments where safety and responsiveness are critical.
-
-<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Actuator Design" width="600">
-
-<!-- *Figure 1: Nonlinear spring concept and CAD model of the cable-driven actuator.* -->
-
----
+<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Actuator Design" width="400">
 
 ### Problem
+Cable-driven systems are lightweight but prone to slack, nonlinear force transmission, and limited control bandwidth under dynamic loading. Slack introduces impact during re-engagement and loss of output position tracking.
 
-Cable-driven systems are lightweight but prone to:
-
-- Cable slack and backlash  
-- Nonlinear force transmission  
-- Limited force-control bandwidth under dynamic loading  
-- Safety constraints in human interaction  
-
-The goal was to build a compact actuator capable of stable tension regulation and high-speed perturbations.
-
----
+The goal was to develop a compact, lightweight actuator that preserves continuous cable engagement through low-tension regulation, while enabling disturbance rejection in low-force mode and smooth, stable transition to high-force operation.
 
 ### My Role
+I led the actuator’s system refinement and control development, including modeling cable transmission and elastic behavior, designing the force-control architecture, and implementing the full codebase with Moteus motor controller integration.
 
-The initial mechanical prototype was developed by a master’s student. I led the system refinement and evolution of the actuator, including:
+I developed a faster iteration for foot-placement perturbation studies and built a human torso perturbation setup (validated up to **150 N**) using TTL-triggered control via DAQ.
 
-- Formalizing the mathematical modeling of cable transmission and elastic behavior  
-- Designing and implementing the full force-control architecture  
-- Developing the actuator control codebase  
-- Integrating the Moteus motor controller for real-time regulation  
-
-I later led a second iteration optimized for ankle perturbation experiments, including TTL-triggered control via DAQ and high-force validation up to **150 N**.
-
----
+In parallel, I modified the Moteus firmware to enable IMU acquisition, allowing the controller to function as a centralized data hub for the exoskeleton system.
 
 ### Experimental Validation
-
 The actuator was validated through benchtop experiments including:
-
 - Dynamic force tracking  
 - Frequency-based disturbance rejection  
 - Stability testing across stiffness configurations  
 
-<img src="/images/projects/1_Cable_Driven_Actuator/experimental_setup.png" alt="Experimental Setup" width="600">
+<img src="/images/projects/1_Cable_Driven_Actuator/experimental_setup.png" alt="Experimental Setup" width="400">
 
-<!-- *Figure 2: Benchtop experimental setup with load cell and motor-based disturbance source.* -->
 
 **Key Results:**
-
-- Settling times below 0.1 s  
+- Force control settling times below 0.1 s  
 - Stable tension regulation without slack  
-- Reliable performance up to 150 N  
-- Robust synchronization for perturbation studies  
-
----
+- Validated operation up to 200 N  
+- Reliable synchronization for perturbation experiments  
 
 ### Human Perturbation Study
+The actuator was further tested in a pilot walking experiment, where controlled cable perturbations were applied to the foot during gait.
 
-The actuator was further evaluated in a pilot walking experiment, where cable perturbations were applied to the foot during gait.
-
-<img src="/images/projects/1_Cable_Driven_Actuator/foot_perturbation.png" alt="Foot Perturbation" width="600">
-
-<!-- *Figure 3: Foot perturbation experiment during walking.* -->
-
----
+<img src="/images/projects/1_Cable_Driven_Actuator/foot_perturbation.png" alt="Foot Perturbation" width="400">
 
 ### Impact
-
-- Transformed an initial prototype into a robust, experiment-ready actuator platform  
-- Enabled safe and repeatable force perturbation experiments  
-- Currently being integrated into additional exoskeleton systems  
+- Evolved an initial prototype into a robust, experiment-ready actuator platform  
+- Enabled safe and repeatable perturbation-based human studies  
+- Designed for reuse and integration into additional exoskeleton systems  
 - Resulted in a peer-reviewed journal manuscript (under review)  
-
-**Skills:** Actuator refinement • Force control • Embedded integration • Real-time triggering • High-load experimental validation
-
-
 
 ---
 
