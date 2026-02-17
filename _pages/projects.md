@@ -14,7 +14,7 @@ toc_icon: "cog"
 
 I led the system-level development and experimental validation of a **cable-driven actuator** for human–robot interaction, focusing on **eliminating cable slack**, **stable force control**, and **programmable compliance**. The platform supports wearable robotics and human-subject experiments where safety and responsiveness are critical.
 
-![Actuator Design](images/projects/1_Cable_Driven_Actuator/actuator_design.png)
+![Actuator Design](/images/projects/1_Cable_Driven_Actuator/actuator_design.png)
 
 *Figure 1: Nonlinear spring concept and CAD model of the cable-driven actuator.*
 
@@ -54,7 +54,7 @@ The actuator was validated through benchtop experiments including:
 - Frequency-based disturbance rejection  
 - Stability testing across stiffness configurations  
 
-![Experimental Setup](images/projects/1_Cable_Driven_Actuator/experimental_setup.png)
+![Experimental Setup](/images/projects/1_Cable_Driven_Actuator/experimental_setup.png)
 
 *Figure 2: Benchtop experimental setup with load cell and motor-based disturbance source.*
 
@@ -71,7 +71,7 @@ The actuator was validated through benchtop experiments including:
 
 The actuator was further evaluated in a pilot walking experiment, where cable perturbations were applied to the foot during gait.
 
-![Foot Perturbation](images/projects/1_Cable_Driven_Actuator/foot_perturbation.png)
+![Foot Perturbation](/images/projects/1_Cable_Driven_Actuator/foot_perturbation.png)
 
 *Figure 3: Foot perturbation experiment during walking.*
 
