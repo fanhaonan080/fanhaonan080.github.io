@@ -12,7 +12,7 @@ toc_icon: "cog"
 ## Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction
 I led control development and experimental validation of a **cable-driven actuator** with programmable compliance for wearable robotics. The actuator maintains continuous cable tension to eliminate slack and enables controlled force output during both low-force and high-force operation.
 
-<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Actuator Design" width="400">
+<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Actuator Design" width="600">
 
 ### Problem
 Cable-driven systems are lightweight but suffer from slack, nonlinear force transmission, and reduced control bandwidth under dynamic loading. Slack causes impact during cable re-engagement and loss of output displacement tracking.
@@ -22,24 +22,23 @@ The objective was to design a compact, lightweight actuator that regulates minim
 ### My Role
 I developed the cable transmission model and elastic element model, designed the force-control architecture, and implemented the full control codebase with Moteus motor controller integration.
 
-I developed a higher-speed version for foot-placement perturbation experiments and built a torso perturbation setup capable of **200 N** output using TTL-triggered control via DAQ.
+I developed a higher-speed version for foot-placement perturbation experiments and built a torso perturbation setup capable of 200 N output using TTL-triggered control via DAQ.
 
 I modified the Moteus firmware to enable direct IMU acquisition, allowing the motor controller to serve as a centralized sensing and actuation interface for the exoskeleton system.
 
 ### Experimental Validation
 Benchtop experiments included:
-
 - Step-response force tracking  
 - Frequency-sweep disturbance rejection testing  
 - Force-control evaluation under multiple programmable stiffness settings  
 
 <img src="/images/projects/1_Cable_Driven_Actuator/experimental_setup.png" alt="Experimental Setup" width="400">
 
-**Results:**
-- Settling time < 0.1 s
+**Measured Performance:**
+- Force control settling time < 0.1 s
 - Continuous cable tension without disengagement  
-- Controlled force output up to **200 N**  
-- Implemented TTL-triggered perturbation  
+- Controlled force output up to 200 N
+- Implemented TTL-triggered perturbation
 
 ### Human Perturbation Study
 The actuator applied timed cable perturbations to the foot during walking to evaluate controlled force delivery during gait.
