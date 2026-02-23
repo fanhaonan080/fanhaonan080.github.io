@@ -1,96 +1,189 @@
-------
+---------
 
-layout: singlelayout: single
+layout: single
 
-title: "Research Projects"title: "Research Projects"
+title: "Research Projects"layout: singlelayout: single
+
+permalink: /projects/
+
+author_profile: truetitle: "Research Projects"title: "Research Projects"
+
+---
 
 permalink: /projects/permalink: /projects/
 
+---
+
 author_profile: trueauthor_profile: true
 
-------
-
-
+## Featured Research Projects
 
 ------
 
+---
 
 
-## Featured Research Projects## Featured Research Projects
 
-
+### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)
 
 ------
 
-
-
-### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)
-
-
-
-Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.
+Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.
 
 
 
-**Key Contributions:****Key Contributions:**
+**Key Contributions:**
+
+- Force-control architecture with sub-100ms settling time## Featured Research Projects## Featured Research Projects
+
+- Elimination of cable slack through continuous tension regulation
+
+- Integration with exoskeleton systems for balance perturbation experiments
+
+
+
+<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500">------
+
+
+
+[Read More →](/projects/cable-actuator/)
+
+
+
+---### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)
+
+
+
+### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)
+
+
+
+Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.
+
+
+
+**Key Contributions:**
+
+- Parametric linkage optimization framework
+
+- 3D-printed prototype validation**Key Contributions:****Key Contributions:**
+
+- Integration with cable-driven actuation platform
 
 - Force-control architecture with sub-100ms settling time- Force-control architecture with sub-100ms settling time
 
+[Read More →](/projects/ankle-exoskeleton/)
+
 - Elimination of cable slack through continuous tension regulation- Elimination of cable slack through continuous tension regulation
+
+---
 
 - Integration with exoskeleton systems for balance perturbation experiments- Integration with exoskeleton systems for balance perturbation experiments
 
+### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)
 
+
+
+Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.
 
 <img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500"><img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500">
 
+**Key Contributions:**
+
+- Physics-constrained learning architecture
+
+- Data-efficient estimation without motion capture
+
+- Integration with wearable robotics workflows[Read More →](/projects/cable-actuator/)[Read More →](/projects/cable-actuator/)
 
 
-[Read More →](/projects/cable-actuator/)[Read More →](/projects/cable-actuator/)
+
+[Read More →](/projects/torque-estimation/)
 
 
+
+---------
+
+
+
+### [Delay-Aware Consensus and Control of Multi-Robot Systems (PhD Dissertation)](/projects/multi-robot-systems/)
+
+
+
+Doctoral research on stability and performance of multi-robot systems under communication and sensing delays, achieving up to 39% faster consensus convergence.### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)
+
+
+
+**Key Contributions:**
+
+- Delay margin computation tools for multi-delay systems
+
+- Redesigned PR and IR controllers for delay toleranceMechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.
+
+- Predictor-based consensus acceleration
+
+
+
+<div style="text-align: center;">
+
+  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/robot.png" alt="Multi-robot" width="250" style="display: inline-block; margin: 10px;">**Key Contributions:****Key Contributions:**
+
+  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/Consensus_animation.gif" alt="Consensus" width="250" style="display: inline-block; margin: 10px;">
+
+</div>- Parametric linkage optimization framework- Parametric linkage optimization framework
+
+
+
+[Read More →](/projects/multi-robot-systems/)- 3D-printed prototype validation- 3D-printed prototype validation
+
+
+
+---- Integration with cable-driven actuation platform- Integration with cable-driven actuation platform
+
+
+
+## Project Categories
+
+
+
+### Wearable Robotics & Human-Robot Interaction[Read More →](/projects/ankle-exoskeleton/)[Read More →](/projects/ankle-exoskeleton/)
+
+- Cable-Driven Actuator for Exoskeletons
+
+- Ankle Exoskeleton Linkage Design
+
+- Physics-Informed Joint Torque Estimation
 
 ------
 
+### Multi-Robot Systems & Control
 
-
-### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)
-
-
-
-Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.
+- Delay-Aware Consensus and Control (PhD Dissertation)
 
 
 
-**Key Contributions:****Key Contributions:**
-
-- Parametric linkage optimization framework- Parametric linkage optimization framework
-
-- 3D-printed prototype validation- 3D-printed prototype validation
-
-- Integration with cable-driven actuation platform- Integration with cable-driven actuation platform
+---### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)
 
 
 
-[Read More →](/projects/ankle-exoskeleton/)[Read More →](/projects/ankle-exoskeleton/)
+## Publications
 
 
 
-------
+For related publications, please visit my [Publications page](/publications/).Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.
 
 
 
-### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)
+---
 
 
 
-Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.
+## Collaborations**Key Contributions:****Key Contributions:**
 
 
 
-**Key Contributions:****Key Contributions:**
+These projects were conducted at the [Newman Laboratory for Biomechanics and Human Rehabilitation](https://web.northeastern.edu/newman/) at Northeastern University, in collaboration with researchers in control systems, biomechanics, and wearable robotics.- Physics-constrained learning architecture- Physics-constrained learning architecture
 
-- Physics-constrained learning architecture- Physics-constrained learning architecture
 
 - Data-efficient estimation without motion capture- Data-efficient estimation without motion capture
 
