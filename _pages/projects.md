@@ -1,23 +1,189 @@
----
-layout: single
-title: "Projects"
-permalink: /projects/
-author_profile: true
-toc: true
-toc_label: "Projects"
-toc_icon: "cog"
----
+------
 
----
-## Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction
-I led control development and experimental validation of a **cable-driven actuator** with programmable compliance for wearable robotics. The actuator maintains continuous cable tension to eliminate slack and enables controlled force output during both low-force and high-force operation.
+layout: singlelayout: single
 
-<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Actuator Design" width="600">
+title: "Research Projects"title: "Research Projects"
 
-### Problem
-Cable-driven systems are lightweight but suffer from slack, nonlinear force transmission, and reduced control bandwidth under dynamic loading. Slack causes impact during cable re-engagement and loss of output displacement tracking.
+permalink: /projects/permalink: /projects/
 
-The objective was to design a compact, lightweight actuator that regulates minimal tension to keep the cable continuously engaged, rejects disturbances in low-force mode, and transitions to high-force output without overshoot or instability.
+author_profile: trueauthor_profile: true
+
+------
+
+
+
+------
+
+
+
+## Featured Research Projects## Featured Research Projects
+
+
+
+------
+
+
+
+### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)### [Cable-Driven Actuator for Exoskeletons and Human–Robot Interaction](/projects/cable-actuator/)
+
+
+
+Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.Developed a cable-driven actuator with programmable compliance for wearable robotics, achieving continuous tension control and force output up to 200 N for human perturbation studies.
+
+
+
+**Key Contributions:****Key Contributions:**
+
+- Force-control architecture with sub-100ms settling time- Force-control architecture with sub-100ms settling time
+
+- Elimination of cable slack through continuous tension regulation- Elimination of cable slack through continuous tension regulation
+
+- Integration with exoskeleton systems for balance perturbation experiments- Integration with exoskeleton systems for balance perturbation experiments
+
+
+
+<img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500"><img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500">
+
+
+
+[Read More →](/projects/cable-actuator/)[Read More →](/projects/cable-actuator/)
+
+
+
+------
+
+
+
+### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)### [Optimization-Driven Linkage Design for Compact Ankle Exoskeleton](/projects/ankle-exoskeleton/)
+
+
+
+Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.Mechanical design and optimization of a compact ankle exoskeleton that maintains joint alignment while minimizing device size and weight.
+
+
+
+**Key Contributions:****Key Contributions:**
+
+- Parametric linkage optimization framework- Parametric linkage optimization framework
+
+- 3D-printed prototype validation- 3D-printed prototype validation
+
+- Integration with cable-driven actuation platform- Integration with cable-driven actuation platform
+
+
+
+[Read More →](/projects/ankle-exoskeleton/)[Read More →](/projects/ankle-exoskeleton/)
+
+
+
+------
+
+
+
+### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)### [Physics-Informed Human Joint Torque Estimation for Wearable Robotics](/projects/torque-estimation/)
+
+
+
+Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.Hybrid torque estimation framework combining biomechanical modeling with machine learning for real-time joint torque estimation using wearable sensors.
+
+
+
+**Key Contributions:****Key Contributions:**
+
+- Physics-constrained learning architecture- Physics-constrained learning architecture
+
+- Data-efficient estimation without motion capture- Data-efficient estimation without motion capture
+
+- Integration with wearable robotics workflows- Integration with wearable robotics workflows
+
+
+
+[Read More →](/projects/torque-estimation/)[Read More →](/projects/torque-estimation/)
+
+
+
+------
+
+
+
+### [Delay-Aware Consensus and Control of Multi-Robot Systems (PhD Dissertation)](/projects/multi-robot-systems/)### [Delay-Aware Consensus and Control of Multi-Robot Systems (PhD Dissertation)](/projects/multi-robot-systems/)
+
+
+
+Doctoral research on stability and performance of multi-robot systems under communication and sensing delays, achieving up to 39% faster consensus convergence.Doctoral research on stability and performance of multi-robot systems under communication and sensing delays, achieving up to 39% faster consensus convergence.
+
+
+
+**Key Contributions:****Key Contributions:**
+
+- Delay margin computation tools for multi-delay systems- Delay margin computation tools for multi-delay systems
+
+- Redesigned PR and IR controllers for delay tolerance- Redesigned PR and IR controllers for delay tolerance
+
+- Predictor-based consensus acceleration- Predictor-based consensus acceleration
+
+
+
+<div style="text-align: center;"><div style="text-align: center;">
+
+  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/robot.png" alt="Multi-robot" width="250" style="display: inline-block; margin: 10px;">  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/robot.png" alt="Multi-robot" width="250" style="display: inline-block; margin: 10px;">
+
+  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/Consensus_animation.gif" alt="Consensus" width="250" style="display: inline-block; margin: 10px;">  <img src="/images/projects/4_Multi_Robot_Fast_Consensus_Using_Delays/Consensus_animation.gif" alt="Consensus" width="250" style="display: inline-block; margin: 10px;">
+
+</div></div>
+
+
+
+[Read More →](/projects/multi-robot-systems/)[Read More →](/projects/multi-robot-systems/)
+
+
+
+------
+
+
+
+## Project Categories## Project Categories
+
+
+
+### Wearable Robotics & Human-Robot Interaction### Wearable Robotics & Human-Robot Interaction
+
+- Cable-Driven Actuator for Exoskeletons- Cable-Driven Actuator for Exoskeletons
+
+- Ankle Exoskeleton Linkage Design- Ankle Exoskeleton Linkage Design
+
+- Physics-Informed Joint Torque Estimation- Physics-Informed Joint Torque Estimation
+
+
+
+### Multi-Robot Systems & Control### Multi-Robot Systems & Control
+
+- Delay-Aware Consensus and Control (PhD Dissertation)- Delay-Aware Consensus and Control (PhD Dissertation)
+
+
+
+------
+
+
+
+## Publications## Publications
+
+
+
+For related publications, please visit my [Publications page](/publications/).For related publications, please visit my [Publications page](/publications/).
+
+
+
+------
+
+
+
+## Collaborations## Collaborations
+
+
+
+These projects were conducted at the [Newman Laboratory for Biomechanics and Human Rehabilitation](https://web.northeastern.edu/newman/) at Northeastern University, in collaboration with researchers in control systems, biomechanics, and wearable robotics.These projects were conducted at the [Newman Laboratory for Biomechanics and Human Rehabilitation](https://web.northeastern.edu/newman/) at Northeastern University, in collaboration with researchers in control systems, biomechanics, and wearable robotics.
+
 
 ### Technical Contributions
 I built the cable transmission model and elastic element model, designed the force-control architecture, and implemented the full control codebase with Moteus motor controller integration.
