@@ -24,11 +24,11 @@ The objective was to design a compact, lightweight actuator that regulates minim
 
 ## Technical Contributions
 
-I built the cable transmission model and elastic element model, designed the force-control architecture, and implemented the full control codebase with Moteus motor controller integration.
+I built the cable transmission model and elastic element model, designed the force-control architecture, and implemented the full control codebase with Moteus motor controller (BLDC FOC) integration.
 
 I developed a higher-speed version for foot-placement perturbation experiments and built a torso perturbation setup capable of 200 N output using TTL-triggered control via DAQ.
 
-I modified the Moteus firmware to enable direct IMU acquisition, allowing the motor controller to serve as a centralized sensing and actuation interface for the exoskeleton system.
+I modified the brushless motor driver's firmware to enable direct IMU acquisition, allowing the motor controller to serve as a centralized sensing and actuation interface for the exoskeleton system.
 
 ---
 
