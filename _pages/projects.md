@@ -96,7 +96,7 @@ The whole searching and CAD was done under 30 minutes while I was waiting for my
 </div>
 
 
-**Key Features**
+**Key Features:**
 - Parametric CAD model in SolidWorks  
 - Dual landscape slots for stroke and footwork analysis  
 - Net-hanging geometry for fast setup and removal  
