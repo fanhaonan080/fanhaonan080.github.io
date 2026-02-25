@@ -90,11 +90,11 @@ This project started when I became slightly obsessed with improving my tennis te
 
 The whole searching and CAD was done under 30 minutes while I was waiting for my friend. This phone mount hangs directly on the tennis net and supports horizontal (landscape) phone placement on both sides, allowing full-court recording during practice sessions.
 
-<img src="/images/projects/5_Side_Projects/PhoneMount.png" alt="Tennis Phone Mount Design" width="500px">
-*The phone mount design in SolidWorks, showing dual landscape slots and net-hanging geometry*
+<div style="text-align: center;">
+  <img src="/images/projects/5_Side_Projects/PhoneMount.png" alt="Tennis Phone Mount Design" width="250" style="display: inline-block; margin: 10px;">
+  <img src="/images/projects/5_Side_Projects/PhoneMount_print.gif" alt="Phone Mount 3D Printing Animation" width="250" style="display: inline-block; margin: 10px;">
+</div>
 
-<img src="/images/projects/5_Side_Projects/PhoneMount_print.gif" alt="Phone Mount 3D Printing Animation" width="500px">
-*3D printing process of the phone mount*
 
 **Key Features**
 - Parametric CAD model in SolidWorks  
