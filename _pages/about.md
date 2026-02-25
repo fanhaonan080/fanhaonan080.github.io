@@ -9,7 +9,9 @@ redirect_from:
 
 # Robotics & Control Engineer
 
-I design, control, and experimentally validate robotic systems—from actuator hardware and embedded control to physics-informed machine learning.
+I design and deploy robotic systems — from mechanical architecture and actuator design to real-time control and physics-informed estimation.
+
+Currently seeking robotics/control engineering roles in robotic systems.
 
 <div style="text-align: center; margin: 30px 0;">
   <a href="/files/Resume_Haonan_Fan.pdf" class="btn btn--primary btn--large">Resume (PDF)</a>
@@ -17,17 +19,18 @@ I design, control, and experimentally validate robotic systems—from actuator h
 
 
 ## About Me
+I am a robotics engineer with a systems-level approach to building intelligent machines. My work spans mechanical design, control architecture, embedded implementation, and experimental validation — translating theory into reliable, real-world robotic systems.
 
-I bring a systems-engineering mindset to robotics, bridging mechatronic system design, control theory, and software implementation. My work focuses on translating research innovations into practical, experimentally validated solutions for real-world robotic systems.
+I specialize in mechatronic systems, actuator design, control implementation, dynamic system modelling, and physics-constrained estimation frameworks for wearable and networked robotic systems.
+
 
 **Core Strengths**
 
-- **End-to-end robotic system development** — mechanical design → control algorithms → experimental validation  
-- **Motion control & real-time systems** — servo tuning, trajectory optimization, and embedded control implementation  
-- **Cable-driven and compliant actuation** — wearable robotics and human-interaction systems  
-- **Physics-informed machine learning** — data-efficient estimation and hybrid modeling  
-- **Full-stack technical execution** — MATLAB/Simulink, Python/C++, and firmware-level development  
-- **Technical leadership** — mentoring students and contributing to collaborative, cross-functional projects  
+- **End-to-end robotic system development** — concept → mechanical design → control implementation → experimental validation  
+- **Real-time motion control systems** — servo tuning, disturbance rejection, trajectory generation, embedded control  
+- **Physics-informed machine learning** — data-efficient estimation and hybrid modeling for deployable robotics
+- **Full-stack implementation** — MATLAB/Simulink, SolidWorks, Altium Designer, Python, C++, and firmware-level development  
+- **Technical leadership & mentoring** — cross-disciplinary collaboration and project guidance  
 
 ---
 
