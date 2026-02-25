@@ -97,10 +97,10 @@ The whole searching and CAD was done under 30 minutes while I was waiting for my
 
 
 **Key Features:**
-- Parametric CAD model in SolidWorks  
-- Dual landscape slots for stroke and footwork analysis  
-- Net-hanging geometry for fast setup and removal  
-- 3D-printed and field-tested during live practice 
+- Parametric CAD model in SolidWorks
+- Dual landscape cellphone slots
+- Net-hanging geometry for fast setup and removal
+- 3D-printed and field-tested
 
 ---
 
