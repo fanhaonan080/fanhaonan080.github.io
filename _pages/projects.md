@@ -25,7 +25,7 @@ Mechanical design • Modeling and control • BLDC FOC • Force control • Em
 
 <div style="text-align: center;">
 <img src="/images/projects/1_Cable_Driven_Actuator/actuator_design.png" alt="Cable Actuator" width="500">
-<div>
+</div>
 
 [Read More ](/projects/cable-actuator/)
 
